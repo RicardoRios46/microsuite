@@ -58,7 +58,7 @@ def run(context):
 
     output_file_path = os.path.join(root_path, 'AMICO_NODDI.zip')
     shutil.make_archive(output_file_path[:-4], 'zip',
-                        os.path.join(root_path, 'AMICO/NODDI/FIT_ICVF.nii.gz'))
+                        os.path.join(root_path, 'AMICO/NODDI'))
 
     ###################
     # Upload the data #
