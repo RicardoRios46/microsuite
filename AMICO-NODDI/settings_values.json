@@ -1,0 +1,20 @@
+{
+    "input": [
+        {
+            "path": "sub-01_ses-01_part-mag_dwi.nii",
+            "modality": "DWI"
+        },
+        {
+            "path": "sub-01_ses-01_part-mag_dwi.bval",
+            "tags": ["bval"]
+        },
+        {
+            "path": "sub-01_ses-01_part-mag_dwi.bvec",
+            "tags": ["bvec"]
+        },
+        {
+            "path": "mask.nii",
+            "tags": ["wm_mask"]
+        }
+    ]
+}

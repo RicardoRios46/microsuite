@@ -1,0 +1,15 @@
+[
+    {
+        "type": "container",
+        "id": "input",
+        "title": "MicroSuite",
+        "file_filter": "(c_DWI(m'DWI') AND c_BVEC(t'bvec') AND c_BVAL(t'bval')) c_MASK(t'wm_mask')",
+        "in_filter": [
+            "mri_brain_data"
+        ],
+        "out_filter": [],
+        "anchor": 1,
+        "mandatory": 1,
+        "batch": 1
+    }
+]
