@@ -22,7 +22,7 @@ RUN pip3 install tatsu==4.2.6
 
 
 # Copy the source files (only this layer will have to be built after the first time)
-COPY mdt.py /scripts/
+COPY mdt_script.py /scripts/
 
 
-#ENTRYPOINT ["/usr/bin/python3", "/scripts/mdt.py"] 
+ENTRYPOINT ["/usr/bin/python3", "/scripts/mdt_script.py"] 
